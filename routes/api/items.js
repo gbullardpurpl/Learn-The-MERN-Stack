@@ -23,7 +23,7 @@ router.post('/', (req, res) => {
     newItem
         .save()
         .then(item => res.json(item))
-        .catch(err => res.status(404).json({ error: err }));
+        .catch(err => res.status(400).json({ error: err }));
 });
 
 // @route PUT api/items/:id
@@ -33,7 +33,7 @@ router.put('/:id', (req, res) => {
     Item
         .findByIdAndUpdate(req.params.id, req.body)
         .then(() => res.json({ success: true }))
-        .catch(err => res.status(404).json({ error: err }));
+        .catch(err => res.status(400).json({ error: err }));
 });
 
 // @route DELETE api/items/:id
