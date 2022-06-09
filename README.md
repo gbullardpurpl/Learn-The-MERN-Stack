@@ -1,5 +1,6 @@
 # Learn The MERN Stack
-(MongoDB, Express, React, Node.js)
+
+# (MongoDB, Express, React, Node.js)
 
 In this series we will build a full stack application with MERN (MongoDB, Express, React, Node.js). We will also implement Redux for state management and some other things like Reactstrap and React Transitions. Wel will also deploy to Heroku at the end.
 
