@@ -13,6 +13,14 @@ https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF
 Install Postman App for API testing: https://www.postman.com/downloads/  
 Go to https://www.mongodb.com/ and create the free account for the database to be used with the API
 
+### P1 Introduction
+
+Just watch and enjoy
+
+### P2
+
 IMPORTANT!!! During P2 make sure to add config/\* to your .gitignore before digging into the video so your MongoDB URI user/pass combo is not visible if you have this repo set to public.
 
 P2 - MongoDB is now on port 3500 not 5000 as stated in mLab db section
+
+### P3
