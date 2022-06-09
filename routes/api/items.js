@@ -5,7 +5,7 @@ const router = express.Router();
 const Item = require('../../models/Item');
 
 // @route GET api/items
-// @desc GET All Items
+// @desc Get All Items
 // @access Public
 router.get('/', (req, res) => {
     Item.find()
@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 });
 
 // @route POST api/items
-// @desc CReate a Post
+// @desc Create an Item
 // @access Public
 router.post('/', (req, res) => {
     const newItem = new Item({
