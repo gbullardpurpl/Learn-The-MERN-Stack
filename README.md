@@ -17,7 +17,7 @@ Go to https://www.mongodb.com/ and create the free account for the database to b
 
 Just watch and enjoy
 
-### P2
+### P2 Express API & MongoDB
 
 IMPORTANT!!! During P2 make sure to add config/\* to your .gitignore before digging into the video so your MongoDB URI user/pass combo is not visible if you have this repo set to public.
 
