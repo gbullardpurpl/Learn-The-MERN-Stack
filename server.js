@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // DB Config/URI
-const db = require('../Learn-The-MERN-Stack/config/keys').mongoURI;
+const db = require('./config/keys').mongoURI;
 
 // Connect to MongoDB
 mongoose
