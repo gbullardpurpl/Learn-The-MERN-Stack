@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 import AppNavbar from './components/AppNavbar';
 import ShoppingList from './components/ShoppingList';
+import AppFooter from './components/AppFooter';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
@@ -15,10 +16,11 @@ class App extends Component {
         * until a better solution is found to actually fix the issue, GBJ 06-10-22
         */
         <div className="App">
-          <AppNavbar />
-          <React.StrictMode>
+          <React.Fragment>
+              <AppNavbar />
               <ShoppingList />
-          </React.StrictMode>
+              <AppFooter />
+          </React.Fragment>
       </div>
     );
   }

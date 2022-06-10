@@ -1,4 +1,4 @@
-import React, { createRef, Component } from 'react';
+import React, { Component } from 'react';
 import {
     Collapse,
     Navbar,
@@ -23,7 +23,7 @@ class AppNavbar extends Component {
     }
     render() {
         return (
-            <Navbar color="dark" dark expand="sm" className="mb-5">
+            <Navbar color="dark" dark expand="sm" className="mb-4">
                 <NavbarBrand href="/">Shopping List</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
