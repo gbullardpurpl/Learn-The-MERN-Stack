@@ -27,6 +27,8 @@ MongoDB is now on port 3500 not 5000 as stated in mLab db section.
 
 During P3 you will most likely get a Deprecated warning form the mobile menu in the Navbar. If you find a fix for this please add it to the repo with an update to this readme. Otherwise you can see I moved the '<React.StrictMode>' tag to only wrap the page container as it shouldn't be a big deal to be wrapping the nvabar for 99% of the functionality of the app/project. You can periodically move it back as a final check at the end of the project knowing there will be at least the one warning.
 
+The import of uuid ( in ShoppingList.js ) will cause compile errors, use '{ v4 as uuid }' instead.
+
 ### Developer Notes
 
 - The project allows for easy migration from server to server and install dependencies, or when someone clones your repo, by untilizing ( cli: 'npm run client-install' ) after file migration.

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import AppNavbar from './components/AppNavbar';
 import { Container, Row, Col } from 'reactstrap';
+
+import AppNavbar from './components/AppNavbar';
+import ShoppingList from './components/ShoppingList';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
@@ -15,26 +17,7 @@ class App extends Component {
         <div className="App">
           <AppNavbar />
           <React.StrictMode>
-              <Container>
-                <Row>
-                    <Col>.col</Col>
-                </Row>
-                <Row>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                </Row>
-                <Row>
-                    <Col xs="6">.col-6</Col>
-                    <Col xs="6">.col-6</Col>
-                </Row>
-                <Row>
-                    <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-                    <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-                    <Col sm="4">.col-sm-4</Col>
-                </Row>
-              </Container>
+              <ShoppingList />
           </React.StrictMode>
       </div>
     );
