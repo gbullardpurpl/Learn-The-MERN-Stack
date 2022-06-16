@@ -38,9 +38,9 @@ class ShoppingList extends Component {
                                         color="danger"
                                         size="sm"
                                         onClick={() => {
-                                            this.setState(this.state = ({
+                                            this.setState({
                                                 items: this.state.items.filter(item => item.id !== id)
-                                            }));
+                                            });
                                         }}
                                     >&times;</Button>
                                     {name}

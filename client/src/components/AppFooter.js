@@ -12,6 +12,7 @@ class AppFooter extends Component {
                         href="https://purplerockscissors.com/"
                         className="text-light p-2"
                         target="_blank"
+                        rel="noreferrer"
                     >PRPL</a>
                 </div>
             </footer>

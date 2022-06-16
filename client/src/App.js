@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
 
 import AppNavbar from './components/AppNavbar';
 import ShoppingList from './components/ShoppingList';
 import AppFooter from './components/AppFooter';
+
+//import { Provider } from 'react-redux';
+//import store from '../store';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
@@ -17,11 +19,11 @@ class App extends Component {
         */
         <div className="App">
           <React.Fragment>
-              <AppNavbar />
-              <ShoppingList />
-              <AppFooter />
+            <AppNavbar />
+            <ShoppingList />
+            <AppFooter />
           </React.Fragment>
-      </div>
+        </div>
     );
   }
 }
