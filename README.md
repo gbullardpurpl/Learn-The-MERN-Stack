@@ -23,7 +23,7 @@ IMPORTANT!!! During P2 make sure to add config/\* to your .gitignore before digg
 
 MongoDB is now on port 3500 not 5000 as stated in mLab db section.
 
-### P3
+### P3 Notes
 
 During P3 you will most likely get a Deprecated warning on findDOMNode. If you find a fix for this please add it to the repo with an update to this readme. Otherwise you can set the '<React.StrictMode>' tag to '<React.Fragment>' for the coding/build of the app/project. You can periodically set it back as a final check at the end of the project knowing there will be at least the one warning.
 
